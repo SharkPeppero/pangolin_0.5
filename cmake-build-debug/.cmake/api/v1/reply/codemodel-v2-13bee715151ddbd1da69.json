@@ -1,0 +1,428 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "external",
+					"jsonFile" : "directory-external-Debug-8482bb5b6989bf536f1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external"
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-9c2b15c5b82e4333d709.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						11,
+						13
+					]
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"jsonFile" : "directory-examples-Debug-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/HelloPangolin",
+					"jsonFile" : "directory-examples.HelloPangolin-Debug-b2912fafd62a3628c89a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "examples/HelloPangolin",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "examples/SimpleMultiDisplay",
+					"jsonFile" : "directory-examples.SimpleMultiDisplay-Debug-a15524a184f094fb09d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "examples/SimpleMultiDisplay",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "examples/SimpleDisplayImage",
+					"jsonFile" : "directory-examples.SimpleDisplayImage-Debug-628e306addab0485644c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "examples/SimpleDisplayImage",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "examples/SimplePlot",
+					"jsonFile" : "directory-examples.SimplePlot-Debug-91a2d53995eaccaa9d03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "examples/SimplePlot",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "examples/SimpleDisplay",
+					"jsonFile" : "directory-examples.SimpleDisplay-Debug-46fd5d5601386e220b23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "examples/SimpleDisplay",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "examples/SimpleVideo",
+					"jsonFile" : "directory-examples.SimpleVideo-Debug-d12ac0e46b4d2a9a67dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "examples/SimpleVideo",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "examples/SimpleRecord",
+					"jsonFile" : "directory-examples.SimpleRecord-Debug-c7467c143ca852b7e746.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "examples/SimpleRecord",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "examples/SimpleRepeatVideo",
+					"jsonFile" : "directory-examples.SimpleRepeatVideo-Debug-2cb5b929e108d628223b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "examples/SimpleRepeatVideo",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "examples/SharedMemoryVideoWriter",
+					"jsonFile" : "directory-examples.SharedMemoryVideoWriter-Debug-7fbfcc42cde2c50ce8f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "examples/SharedMemoryVideoWriter",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "tools",
+					"childIndexes" : 
+					[
+						14,
+						15
+					],
+					"jsonFile" : "directory-tools-Debug-f9645b0170a45a75eff2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools"
+				},
+				{
+					"build" : "tools/VideoViewer",
+					"jsonFile" : "directory-tools.VideoViewer-Debug-0b6fd4e0b7e14a69da3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "tools/VideoViewer",
+					"targetIndexes" : 
+					[
+						10,
+						12
+					]
+				},
+				{
+					"build" : "tools/VideoConvert",
+					"jsonFile" : "directory-tools.VideoConvert-Debug-4ecda42ca503548b4727.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "tools/VideoConvert",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "Pangolin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "HelloPangolin::@3b4133b23ebbdbbe40aa",
+					"jsonFile" : "target-HelloPangolin-Debug-fc6ddb92fc8fa4e1b0ab.json",
+					"name" : "HelloPangolin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "SharedMemoryVideoWriter::@685e331e5d9dced71301",
+					"jsonFile" : "target-SharedMemoryVideoWriter-Debug-050bf5d228d98a50f5cc.json",
+					"name" : "SharedMemoryVideoWriter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "SimpleDisplay::@3311ccc235d154e47318",
+					"jsonFile" : "target-SimpleDisplay-Debug-2b9f4264e2a132a11dbe.json",
+					"name" : "SimpleDisplay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SimpleDisplayImage::@c7fb82374cde845454b8",
+					"jsonFile" : "target-SimpleDisplayImage-Debug-eb57bffc4c6bd7a5c225.json",
+					"name" : "SimpleDisplayImage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SimpleMultiDisplay::@208ba3715f78664e5ee3",
+					"jsonFile" : "target-SimpleMultiDisplay-Debug-e81ac0309d60ac14a106.json",
+					"name" : "SimpleMultiDisplay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "SimplePlot::@b6a399d166c57b851b5a",
+					"jsonFile" : "target-SimplePlot-Debug-37a986714a83350286c6.json",
+					"name" : "SimplePlot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "SimpleRecord::@2c52b72a6ffe2507298f",
+					"jsonFile" : "target-SimpleRecord-Debug-33b52e6a321b8dc8d9eb.json",
+					"name" : "SimpleRecord",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "SimpleRepeatVideo::@0185d224187d511ddda9",
+					"jsonFile" : "target-SimpleRepeatVideo-Debug-3c245248d2cab3420f52.json",
+					"name" : "SimpleRepeatVideo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "SimpleVideo::@02458221a675d57edef9",
+					"jsonFile" : "target-SimpleVideo-Debug-afd1e394e3deff051431.json",
+					"name" : "SimpleVideo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "VideoConvert::@badc2b414b674bba72bc",
+					"jsonFile" : "target-VideoConvert-Debug-db8716f840ebafcba223.json",
+					"name" : "VideoConvert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "VideoViewer::@54e3c34c43d5243b9a9d",
+					"jsonFile" : "target-VideoViewer-Debug-0adf9334a69c96fe972b.json",
+					"name" : "VideoViewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doc::@145eef247bfb46b6828c",
+					"jsonFile" : "target-doc-Debug-458ebc21e5e6869a8373.json",
+					"name" : "doc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "install-mime-info::@54e3c34c43d5243b9a9d",
+					"jsonFile" : "target-install-mime-info-Debug-61a36a949322a784f926.json",
+					"name" : "install-mime-info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pangolin::@145eef247bfb46b6828c",
+					"jsonFile" : "target-pangolin-Debug-bd6f9965a06ed403ac40.json",
+					"name" : "pangolin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-d3623815752da5ce0acf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xu/3rdparty/Pangolin-0.5/cmake-build-debug",
+		"source" : "/home/xu/3rdparty/Pangolin-0.5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
